@@ -10,7 +10,6 @@
 
 **To launch the project locally:**
 
-
 - Clone this repo locally using git in the command line with the following command
 ```
 > https://github.com/Bria222/object-orientedsshool-libray
@@ -22,9 +21,14 @@
 ruby main.rb
 `
 ## Authors
-:bust_in_silhouette: **Brian Nyachae**
+## :bust_in_silhouette: **Brian Nyachae**
 - GitHub: [@Bria222](https://github.com/Bria222)
 - LinkedIn: [brian-nyachae](https://www.linkedin.com/in/brian-nyachae)
+
+#### :bust_in_silhouette: **Molnar Emese**
+  - [Mesi21](https://github.com/Mesi21)
+  - [LinkedIn](https://www.linkedin.com/in/emesemesimolnar/)  
+  - [Twitter](https://twitter.com/buksimesi21) 
 
 
 ## 🤝 Contributing
@@ -39,9 +43,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
