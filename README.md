@@ -10,7 +10,6 @@
 
 **To launch the project locally:**
 
-
 - Clone this repo locally using git in the command line with the following command
 ```
 > https://github.com/Bria222/object-orientedsshool-libray
@@ -44,9 +43,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
