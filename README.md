@@ -22,9 +22,14 @@
 ruby main.rb
 `
 ## Authors
-:bust_in_silhouette: **Brian Nyachae**
+## :bust_in_silhouette: **Brian Nyachae**
 - GitHub: [@Bria222](https://github.com/Bria222)
 - LinkedIn: [brian-nyachae](https://www.linkedin.com/in/brian-nyachae)
+
+#### :bust_in_silhouette: **Molnar Emese**
+  - [Mesi21](https://github.com/Mesi21)
+  - [LinkedIn](https://www.linkedin.com/in/emesemesimolnar/)  
+  - [Twitter](https://twitter.com/buksimesi21) 
 
 
 ## 🤝 Contributing
