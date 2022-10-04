@@ -4,6 +4,7 @@ require './book'
 require './rental'
 require './student'
 require './teacher'
+require './options'
 
 class App
   def initialize
@@ -49,26 +50,9 @@ class App
     user_option = gets.chomp
     case user_option
     when '1'
-      puts 'Age:'
-      age = gets.chomp.to_i
-      puts 'Do you have parent permission[Y/N]:'
-      parent_permission = gets.chomp.downcase
-      puts 'Name:'
-      name = gets.chomp
-      student = Student.new(age, name, parent_permission: parent_permission)
-      @people.push(student)
-      puts 'Student created successfully!'
-
+      stud_opt
     when '2'
-      puts 'Age:'
-      age = gets.chomp.to_i
-      puts 'Name:'
-      name = gets.chomp
-      puts 'Specialization:'
-      specialization = gets.chomp
-      teacher = Teacher.new(age, specialization, name)
-      @people.push(teacher)
-      puts 'Teacher created successfully!'
+      teach_opt
     end
   end
 
