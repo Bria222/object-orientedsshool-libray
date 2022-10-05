@@ -8,6 +8,7 @@ def read_book(file)
     add_book(book_title, book_author)
   end
 end
+
 def read_people(file)
   puts "\n**********************PEOPLE************************\n"
   file.each do |el|
