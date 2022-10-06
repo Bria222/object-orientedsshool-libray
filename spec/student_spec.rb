@@ -8,7 +8,7 @@ describe 'Student object' do
     it 'returns correct names of student object instance variables' do
       expect(student.classroom).to eq 'PP1'
       expect(student.name).to eq 'John'
-      expect(student.parent_permission).to eq 'true'
+      expect(student.age).to eq 18
     end
     it 'returns default constructor values' do
       expect(student.type).to eq 'Student'
