@@ -4,7 +4,7 @@ require_relative '../book'
 
 describe 'Person object' do
   context 'should create an instance of Person class' do
-    person = Person.new(15, 'John', 'true')
+    person = Person.new(15, 'John')
 
     it 'returns a Person object' do
       expect(person.class) == Person
@@ -13,10 +13,12 @@ describe 'Person object' do
     it 'returns correct names of person object instance variables' do
       expect(person.age).to eq 15
       expect(person.name).to eq 'John'
+      expect(person.rentals).to eq []
     end
 
     it 'returns default constructor values' do
       expect(Person.new(20).name).to eq 'Unknown'
+      expect(Person.new(20).rentals).to eq []
     end
   end
 
