@@ -28,16 +28,17 @@ def read_people(file)
       add_teacher(teacher_specialization, teacher_age, teacher_name, true)
     end
   end
-  def read_rental(ary, book_file, people_file)
-    puts "\n**********************RENTAL************************\n"
-    ary.each do |el|
-      date_of_rent = el['value']['date']
-      rented_book = el['value']['book']
-      renter = el['value']['person']
-      book = find_book_idx(rented_book, book_file)
-      person = find_person_idx(renter, people_file)
-      puts "Date of Rent: #{date_of_rent} Book: #{book} Person: #{person}"
-      add_rental(date_of_rent, book, person)
-    end
+end
+
+def read_rental(ary, book_file, people_file)
+  puts "\n**********************RENTAL************************\n"
+  ary.each do |el|
+    date_of_rent = el['value']['date']
+    rented_book = el['value']['book']
+    renter = el['value']['person']
+    book = find_book_idx(rented_book, book_file)
+    person = find_person_idx(renter, people_file)
+    puts "Date of Rent: #{date_of_rent} Book: #{book} Person: #{person}"
+    add_rental(date_of_rent, book, person)
   end
 end
