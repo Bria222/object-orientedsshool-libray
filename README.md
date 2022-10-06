@@ -25,10 +25,15 @@ ruby main.rb
 - GitHub: [@Bria222](https://github.com/Bria222)
 - LinkedIn: [brian-nyachae](https://www.linkedin.com/in/brian-nyachae)
 
-#### :bust_in_silhouette: **Molnar Emese**
+## :bust_in_silhouette: **Molnar Emese**
   - [Mesi21](https://github.com/Mesi21)
   - [LinkedIn](https://www.linkedin.com/in/emesemesimolnar/)  
-  - [Twitter](https://twitter.com/buksimesi21) 
+  - [Twitter](https://twitter.com/buksimesi21)
+
+## :bust_in_silhouette: **Ezea Stephen** 
+- GitHub: [@stephnna](https://github.com/stephnna)
+- Twitter: [@stephnna](https://twitter.com/stephnna)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/stephen-ezea/) 
 
 
 ## 🤝 Contributing
