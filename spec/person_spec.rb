@@ -13,12 +13,10 @@ describe 'Person object' do
     it 'returns correct names of person object instance variables' do
       expect(person.age).to eq 15
       expect(person.name).to eq 'John'
-      expect(person.parent_permission).to eq 'true'
     end
 
     it 'returns default constructor values' do
       expect(Person.new(20).name).to eq 'Unknown'
-      expect(Person.new(20).parent_permission).to eq 'true'
     end
   end
 
