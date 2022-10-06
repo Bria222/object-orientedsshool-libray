@@ -9,6 +9,7 @@ describe 'Student object' do
       expect(student.classroom).to eq 'PP1'
       expect(student.name).to eq 'John'
       expect(student.age).to eq 18
+      expect(student.parent_permission).to eq 'true'
     end
     it 'returns default constructor values' do
       expect(student.type).to eq 'Student'

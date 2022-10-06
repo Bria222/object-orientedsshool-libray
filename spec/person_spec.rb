@@ -14,6 +14,7 @@ describe 'Person object' do
       expect(person.age).to eq 15
       expect(person.name).to eq 'John'
       expect(person.rentals).to eq []
+      expect(person.parent_permission).to eq 'true'
     end
 
     it 'returns default constructor values' do
