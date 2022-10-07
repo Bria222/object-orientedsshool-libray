@@ -1,6 +1,8 @@
 require_relative './app'
+
 def read_book(file)
   puts "\n**********************BOOKS************************\n"
+
   file.each do |el|
     book_title = el['value']['title']
     book_author = el['value']['author']
@@ -11,6 +13,7 @@ end
 
 def read_people(file)
   puts "\n**********************PEOPLE************************\n"
+
   file.each do |el|
     case el['value']['type']
     when 'Student'
@@ -32,6 +35,7 @@ end
 
 def read_rental(ary, book_file, people_file)
   puts "\n**********************RENTAL************************\n"
+
   ary.each do |el|
     date_of_rent = el['value']['date']
     rented_book = el['value']['book']
@@ -40,5 +44,19 @@ def read_rental(ary, book_file, people_file)
     person = find_person_idx(renter, people_file)
     puts "Date of Rent: #{date_of_rent} Book: #{book} Person: #{person}"
     add_rental(date_of_rent, book, person)
+  end
+end
+
+def find_book_idx(ref, path_file)
+  find = JSON.parse(path_file)
+  find.each_with_index do |el, i|
+    return i if ref == el['ref']
+  end
+end
+
+def find_person_idx(ref, path_file)
+  find = JSON.parse(path_file)
+  find.each_with_index do |el, i|
+    return i if ref == el['ref']
   end
 end
